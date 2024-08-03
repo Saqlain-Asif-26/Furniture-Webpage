@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+          theme: {
+            screens: {
+                'xs': '300px',
+                'sm': '410px',
+                'sl': '490px',
+                'md': '768px',
+                'ml': '983px',
+                'lg': '1024px',
+                'xl': '1280px',
+                '2xl': '1536px',
+                },
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+    </script>
+    <title>FURNS | Furniture</title>
+</head>
+<body class="font-[raleway] w-full">
+    <!-- default message section start -->
+    <section class="w-full bg-[#2F333A]">
+        <div class="xs:block sm:flex justify-between items-center max-w-[1200px] mx-auto  sm:px-[20px]">
+            <div class="text-[#ea580c] xs:hidden sm:flex">
+                <h1>Default Welcome Message</h1>
+            </div>
+            <div class:"">
+                <select name="" id="" class="text-white xs:mx-[50px] sm:mx-[16px] bg-[#2F333A] border-[#2F333A] hover:text-[#ea580c] py-[10px] duration-500">
+                    <option value="">English</option>
+                    <option value="">Urdu</option>
+                    <option value="">Punjabi</option>
+                    <option value="">Italian</option>
+                </select>
+                <select name="" id="" class="text-white bg-[#2F333A] hover:text-[#ea580c] duration-500">
+                    <option value="">PKR</option>
+                    <option value="">USD</option>
+                    <option value="">EUR</option>
+                </select>
+            </div>
+        </div>
+    </section>
+    <!-- default message section end -->
+    <!-- logo secton start -->
+    <section class="max-w-[1200px] sm:px-[20px] mx-auto sm:py-[30px] xs:p-[10px] grid grid-cols-[40%_auto] justify-between items-center">
+        <figure>
+            <img src="./img/logo.png" alt="">
+        </figure>
+        <div class="">
+            <i class="text-[30px] px-[10px] hover:text-[#ea580c] duration-500 fa-solid fa-magnifying-glass"></i>
+            <i class="text-[30px] px-[10px] hover:text-[#ea580c] duration-500 fa-regular fa-user"></i>
+            <i class="text-[30px] px-[10px] hover:text-[#ea580c] duration-500 fa-solid fa-bag-shopping relative"><div class="text-[10px] p-[5px] text-white absolute border-[1px] rounded-[30px] bg-[#ea580c] right-[0px] top-[0px]"><p>0</p></div></i>
+        </div>
+    </section>
+    <!-- logo secton end -->
+    <!-- navbar section start -->
+    <section class="w-full bg-[#2F333A] py-[20px]">
+        <div class="text-white flex flex-wrap xs:flex-col md:flex-row items-center justify-center font-bold text-[20px]">
+            <h1 class=" hover:text-[#ea580c] duration-500 mx-[20px] cursor-pointer">Home</h1>
+            <h1 class=" hover:text-[#ea580c] duration-500 mx-[20px] cursor-pointer">About</h1>
+            <h1 class=" hover:text-[#ea580c] duration-500 mx-[20px] cursor-pointer">For Home</h1>
+            <h1 class=" hover:text-[#ea580c] duration-500 mx-[20px] cursor-pointer">For Office</h1>
+            <h1 class=" hover:text-[#ea580c] duration-500 mx-[20px] cursor-pointer">For Hospital</h1>
+            <h1 class=" hover:text-[#ea580c] duration-500 mx-[20px] cursor-pointer">Contact</h1>
+        </div>
+    </section>
+    <!-- navbar section end -->
+    <!-- flexible chair section start -->
+    <section class="w-full bg-[#e7e7e7]">
+        <div class="max-w-[1200px] mx-auto px-[20px] grid xs:grid-cols-1 md:grid-cols-2 xs:p-[10px] sm:p-[20px] md:py-[100px] md:px-[10px] justify-between items-center">
+            <div class="md:order-1 order-2">
+                <p class="sm:text-[25px] font-bold text-[#474747]">New Products</p>
+                <h1 class="xs:text-[40px] sm:text-[50px] md:[70px] lg:text-[75px] font-bold text-black">Flexible Chair</h1>
+                <p class="max-w-[500px]">Torem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmo tempor incididunt ut labore et dolore magna</p>
+                <button class="bg-[#ff7735] text-white py-[15px] font-bold px-[40px] hover:bg-black hover:text-[#ff7735] duration-500 my-[30px]">Shop Now</button>
+            </div>
+            <figure class="md:order-2 order-1 justify-self-center">
+                <img src="./img/main-sofa.png" alt="">
+            </figure>
+        </div>
+    </section>
+    <!-- flexible chair section end -->
+    <!-- Circular section start -->
+    <section class="w-full flex justify-center items-center  max-w-7xl mx-auto">
+        <div class="flex flex-wrap justify-center gap-10 my-16">
+            <div class="flex flex-col items-center justify-center h-[250px] w-[250px] p-[50px] border-[3px] border-[#6b7280] border-solid hover:border-dashed hover:border-[#ff7735] rounded-full">
+                <div><img class="h-[80px] w-[80px] object-cover" src="./img/bed-room.jfif" alt=""></div>
+                <p class="text-[20px] text-black mt-[10px]">Bed Room</p>
+            </div>
+            <div class="flex flex-col items-center justify-center h-[250px] w-[250px] p-[50px] border-[3px] border-[#6b7280] border-solid hover:border-dashed hover:border-[#ff7735] rounded-full">
+                <div><img class="h-[80px] w-[80px] object-cover" src="./img/living-room.png" alt=""></div>
+                <p class="text-[20px] text-black mt-[10px]">Living</p>
+            </div>
+            <div class="flex flex-col items-center justify-center h-[250px] w-[250px] p-[50px] border-[3px] border-[#6b7280] border-solid hover:border-dashed hover:border-[#ff7735] rounded-full">
+                <div><img class="h-[80px] w-[80px] object-cover" src="./img/dining-set.jfif" alt=""></div>
+                <p class="text-[20px] text-black mt-[10px]">Dining</p>
+            </div>
+            <div class="flex flex-col items-center justify-center h-[250px] w-[250px] p-[50px] border-[3px] border-[#6b7280] border-solid hover:border-dashed hover:border-[#ff7735] rounded-full">
+                <div><img class="h-[80px] w-[80px] object-cover" src="./img/lounge-sofa.jfif" alt=""></div>
+                <p class="text-[20px] text-black mt-[10px]">Lounge</p>
+            </div>
+        </div>
+    </section>
+    <!-- Circular section end -->
+    <!-- Product text section start -->
+    <section class="max-w-[1200px] mx-auto my-[20px]">
+        <div class="max-w-[600px] flex flex-col items-center mx-auto text-center">
+            <h1 class="text-[40px] font-bold">Our Products</h1>
+            <p class="my-[20px] text-[20px]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae temporibus sint nostrum dolor suscipit.</p>
+            <div class="md:flex xs:hidden">
+                <h1 class="mx-[20px] xs:text-[16px] sl:text-[18px] md:text-[25px] font-bold text-[#ea580c] cursor-pointer duration-500">New Arrival</h1>
+                <h1 class="mx-[20px] xs:text-[16px] sl:text-[18px] md:text-[25px] font-bold hover:text-[#ea580c] cursor-pointer duration-500">Featured</h1>
+                <h1 class="mx-[20px] xs:text-[16px] sl:text-[18px] md:text-[25px] font-bold hover:text-[#ea580c] cursor-pointer duration-500">On Sale</h1>
+                <h1 class="mx-[20px] xs:text-[16px] sl:text-[18px] md:text-[25px] font-bold hover:text-[#ea580c] cursor-pointer duration-500">Tending</h1>
+            </div>
+        </div>
+    </section>
+    <!-- Product text section end -->
+    <!-- Products pics section start -->
+    <section class="max-w-[1200px] mx-auto">
+        <div class="grid lg:grid-cols-4 sl:grid-cols-2 xs:grid-cols-1 gap-10 mb-[100px]">
+            <div class="flex flex-col justifly-evenly items-center">
+                <div class="overflow-hidden relative">
+                    <img class="hover:scale-125 duration-500" src="./img/Living-Room-Furniture.jfif" alt="">
+                    <h1 class="bg-[#ea580c] text-white absolute top-[10px] left-[10px] px-[10px]">-10%</h1>
+                    <i class="fa-regular fa-heart absolute top-[10px] right-[10px] p-[12px] text-[20px] rounded-full bg-[#fff] hover:bg-[#ea580c] hover:text-white duration-500"></i>
+                </div>
+                <div class="text-center pt-[20px] cursor-pointer">
+                    <p class="text-[25px] font-bold hover:text-[#ea580c] duration-500">Living Room Sofa</p>
+                    <p class="text-[20px] font-bold text-[#ea580c]"><span class="text-black line-through font-normal mr-[10px]">$150</span>$140</p>
+                </div>
+            </div>
+            <div class="flex flex-col justifly-evenly items-center">
+                <div class="overflow-hidden relative">
+                    <img class="hover:scale-125 duration-500" src="./img/gool-sofa.jfif" alt="">
+                    <h1 class="bg-[#ea580c] text-white absolute top-[10px] left-[10px] px-[10px]">-10%</h1>
+                    <i class="fa-regular fa-heart absolute top-[10px] right-[10px] p-[12px] text-[20px] rounded-full bg-[#fff] hover:bg-[#ea580c] hover:text-white duration-500"></i>
+                </div>
+                <div class="text-center pt-[20px] cursor-pointer">
+                    <p class="text-[25px] font-bold hover:text-[#ea580c] duration-500">Living Room Sofa</p>
+                    <p class="text-[20px] font-bold text-[#ea580c]"><span class="text-black line-through font-normal mr-[10px]">$150</span class="text-[#ea580c]">$140</p>
+                </div>
+            </div>
+            <div class="flex flex-col justifly-evenly items-center">
+                <div class="overflow-hidden relative">
+                    <img class="hover:scale-125 duration-500" src="./img/white-black-sofa.jfif" alt="">
+                    <h1 class="bg-[#ea580c] text-white absolute top-[10px] left-[10px] px-[10px]">-10%</h1>
+                    <i class="fa-regular fa-heart absolute top-[10px] right-[10px] p-[12px] text-[20px] rounded-full bg-[#fff] hover:bg-[#ea580c] hover:text-white duration-500"></i>
+                </div>
+                <div class="text-center pt-[20px] cursor-pointer">
+                    <p class="text-[25px] font-bold hover:text-[#ea580c] duration-500">Living Room Sofa</p>
+                    <p class="text-[20px] font-bold text-[#ea580c]"><span class="text-black line-through font-normal mr-[10px]">$150</span class="text-[#ea580c]">$140</p>
+                </div>
+            </div>
+            <div class="flex flex-col justifly-evenly items-center">
+                <div class="overflow-hidden relative">
+                    <img class="hover:scale-125 duration-500" src="./img/boota-myz.jfif" alt="">
+                    <h1 class="bg-[#ea580c] text-white absolute top-[10px] left-[10px] px-[10px]">-10%</h1>
+                    <i class="fa-regular fa-heart absolute top-[10px] right-[10px] p-[12px] text-[20px] rounded-full bg-[#fff] hover:bg-[#ea580c] hover:text-white duration-500"></i>
+                </div>
+                <div class="text-center pt-[20px] cursor-pointer">
+                    <p class="text-[25px] font-bold hover:text-[#ea580c] duration-500">Living Room Sofa</p>
+                    <p class="text-[20px] font-bold text-[#ea580c]"><span class="text-black line-through font-normal mr-[10px]">$150</span class="text-[#ea580c]">$140</p>
+                </div>
+            </div>
+            <div class="flex flex-col justifly-evenly items-center">
+                <div class="overflow-hidden relative">
+                    <img class="hover:scale-125 duration-500" src="./img/boota-myz.jfif" alt="">
+                    <h1 class="bg-[#ea580c] text-white absolute top-[10px] left-[10px] px-[10px]">-10%</h1>
+                    <i class="fa-regular fa-heart absolute top-[10px] right-[10px] p-[12px] text-[20px] rounded-full bg-[#fff] hover:bg-[#ea580c] hover:text-white duration-500"></i>
+                </div>
+                <div class="text-center pt-[20px] cursor-pointer">
+                    <p class="text-[25px] font-bold hover:text-[#ea580c] duration-500">Living Room Sofa</p>
+                    <p class="text-[20px] font-bold text-[#ea580c]"><span class="text-black line-through font-normal mr-[10px]">$150</span class="text-[#ea580c]">$140</p>
+                </div>
+            </div>
+            <div class="flex flex-col justifly-evenly items-center">
+                <div class="overflow-hidden relative">
+                    <img class="hover:scale-125 duration-500" src="./img/white-black-sofa.jfif" alt="">
+                    <h1 class="bg-[#ea580c] text-white absolute top-[10px] left-[10px] px-[10px]">-10%</h1>
+                    <i class="fa-regular fa-heart absolute top-[10px] right-[10px] p-[12px] text-[20px] rounded-full bg-[#fff] hover:bg-[#ea580c] hover:text-white duration-500"></i>
+                </div>
+                <div class="text-center pt-[20px] cursor-pointer">
+                    <p class="text-[25px] font-bold hover:text-[#ea580c] duration-500">Living Room Sofa</p>
+                    <p class="text-[20px] font-bold text-[#ea580c]"><span class="text-black line-through font-normal mr-[10px]">$150</span class="text-[#ea580c]">$140</p>
+                </div>
+            </div>
+            <div class="flex flex-col justifly-evenly items-center">
+                <div class="overflow-hidden relative">
+                    <img class="hover:scale-125 duration-500" src="./img/gool-sofa.jfif" alt="">
+                    <h1 class="bg-[#ea580c] text-white absolute top-[10px] left-[10px] px-[10px]">-10%</h1>
+                    <i class="fa-regular fa-heart absolute top-[10px] right-[10px] p-[12px] text-[20px] rounded-full bg-[#fff] hover:bg-[#ea580c] hover:text-white duration-500"></i>
+                </div>
+                <div class="text-center pt-[20px] cursor-pointer">
+                    <p class="text-[25px] font-bold hover:text-[#ea580c] duration-500">Living Room Sofa</p>
+                    <p class="text-[20px] font-bold text-[#ea580c]"><span class="text-black line-through font-normal mr-[10px]">$150</span class="text-[#ea580c]">$140</p>
+                </div>
+            </div>
+            <div class="flex flex-col justifly-evenly items-center">
+                <div class="overflow-hidden relative">
+                    <img class="hover:scale-125 duration-500" src="./img/Living-Room-Furniture.jfif" alt="">
+                    <h1 class="bg-[#ea580c] text-white absolute top-[10px] left-[10px] px-[10px]">-10%</h1>
+                    <i class="fa-regular fa-heart absolute top-[10px] right-[10px] p-[12px] text-[20px] rounded-full bg-[#fff] hover:bg-[#ea580c] hover:text-white duration-500"></i>
+                </div>
+                <div class="text-center pt-[20px] cursor-pointer">
+                    <p class="text-[25px] font-bold hover:text-[#ea580c] duration-500">Living Room Sofa</p>
+                    <p class="text-[20px] font-bold text-[#ea580c]"><span class="text-black line-through font-normal mr-[10px]">$150</span class="text-[#ea580c]">$140</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Products pics section end -->
+    <!-- 2 in 1 banner section start -->
+    <section class="max-w-[1200px] mx-auto mb-24 px-4">
+        <div class="md:flex md:justify-between items-center mt-[16px] md:mt-[0px]">
+            <div class="relative w-full md:w-[50%]">
+                <img src="./img/images_banner_1.jpg" alt="" class="w-full">
+                <div class="absolute right-[20px] sm:top-[40px] xs:top-[0px] w-[200px]">
+                    <h1 class="text-[30px] font-semibold text-gray-800">Sale Furniture For Summer</h1>
+                    <p class="text-lg mt-2">Great Discounts Here</p>
+                </div>
+            </div>
+            <div class="relative w-full md:w-[50%]">
+                <img src="./img/images_banner_2.jpg" alt="" class="w-full">
+                <div class="absolute left-[20px] sm:top-[40px] xs:top-[0px] w-[200px]">
+                    <h1 class="text-[30px] font-semibold text-gray-800">Office Chair For Best Offer</h1>
+                    <p class="text-lg mt-2">Great Discounts Here</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 2 in 1 banner section end -->
+    <!-- Latest news section start -->
+    <section class="max-w-[1200px] mx-auto mb-[50px]">
+        <div class="text-center">
+            <h1 class="text-[35px] font-bold">Latest News</h1>
+            <p class="text-[16px] max-w-[550px] mx-auto mt-[20px] mb-[30px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae minus quidem vitae at! Harum!</p>
+            <h3 class="text-[25px] font-semibold">There are no articles found!</h3>
+        </div>
+    </section>
+    <!-- Latest news section end -->
+    <!-- Footer section start -->
+    <section class="w-full bg-[#2F333A]">
+        <div class="max-w-[1200px] mx-auto text-white py-[100px] px-[10px] grid md:grid-cols-4 sl:grid-cols-2 xs:grid-cols-1 xs:text-center md:text-start gap-10">
+            <div class="">
+                <h1 class=" cursor-pointer">ABOUT US</h1>
+                <p class="my-[20px]">Lorem ipsum dolor sit amet cons adipisicing elit sed do eiusm tempor incididunt ut labor et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                <div class="text-white">
+                    <i class="mx-[10px] hover:text-[#FF6900] duration-500 cursor-pointer hover:scale-125 text-[18px] fa-brands fa-facebook"></i>
+                    <i class="mx-[10px] hover:text-[#FF6900] duration-500 cursor-pointer hover:scale-125 text-[18px] fa-brands fa-twitter"></i>
+                    <i class="mx-[10px] hover:text-[#FF6900] duration-500 cursor-pointer hover:scale-125 text-[18px] fa-brands fa-linkedin"></i>
+                    <i class="mx-[10px] hover:text-[#FF6900] duration-500 cursor-pointer hover:scale-125 text-[18px] fa-brands fa-youtube"></i>
+                    <i class="mx-[10px] hover:text-[#FF6900] duration-500 cursor-pointer hover:scale-125 text-[18px] fa-brands fa-pinterest"></i>
+                </div>
+            </div>
+            <div class="">
+                <h1 class="mb-[20px] cursor-pointer">INFORMATION</h1>
+                <h4 class="mb-[16px] text-[14px] hover:ml-[10px] hover:text-[#FF6900] duration-500 cursor-pointer">About Us</h4>
+                <h4 class="mb-[16px] text-[14px] hover:ml-[10px] hover:text-[#FF6900] duration-500 cursor-pointer">Manufactures</h4>
+                <h4 class="mb-[16px] text-[14px] hover:ml-[10px] hover:text-[#FF6900] duration-500 cursor-pointer">Tracking Order</h4>
+                <h4 class="mb-[16px] text-[14px] hover:ml-[10px] hover:text-[#FF6900] duration-500 cursor-pointer">Privecy & Policy</h4>
+                <h4 class="mb-[16px] text-[14px] hover:ml-[10px] hover:text-[#FF6900] duration-500 cursor-pointer">Trems & Conditions</h4>
+            </div>
+            <div class="">
+                <h1 class="mb-[20px] cursor-pointer">MY ACCOUNT</h1>
+                <h4 class="mb-[16px] text-[14px] hover:ml-[10px] hover:text-[#FF6900] duration-500 cursor-pointer">Login</h4>
+                <h4 class="mb-[16px] text-[14px] hover:ml-[10px] hover:text-[#FF6900] duration-500 cursor-pointer">My Cart</h4>
+                <h4 class="mb-[16px] text-[14px] hover:ml-[10px] hover:text-[#FF6900] duration-500 cursor-pointer">Wishlist</h4>
+                <h4 class="mb-[16px] text-[14px] hover:ml-[10px] hover:text-[#FF6900] duration-500 cursor-pointer">Compare</h4>
+                <h4 class="mb-[16px] text-[14px] hover:ml-[10px] hover:text-[#FF6900] duration-500 cursor-pointer">My Account</h4>
+            </div>
+            <div class="">
+                <h1 class="mb-[20px] cursor-pointer">NEWSLETTER</h1>
+                <input type="email" placeholder="Enter your Email" class="px-[15px] py-[10px] bg-transparent border-[1px] border-[gray] focus:outline-none focus:border-[#FF6900] duration-500"><br>
+                <button class="bg-[#ff7735] text-white py-[15px] font-bold px-[40px] hover:bg-black hover:text-[#ff7735] duration-500 my-[30px]"><i class="fa-regular fa-bell text-[18px]"></i>Subscribe</button>
+            </div>
+        </div>
+    </section>
+    <!-- Footer section end -->
+</body>
+</html>
