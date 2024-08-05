@@ -55,14 +55,26 @@
     </section>
     <!-- default message section end -->
     <!-- logo secton start -->
-    <section class="max-w-[1200px] sm:px-[20px] mx-auto sm:py-[30px] xs:p-[10px] grid grid-cols-[40%_auto] justify-between items-center">
-        <figure>
-            <img src="./img/logo.png" alt="">
-        </figure>
-        <div class="">
-            <i class="text-[30px] px-[10px] hover:text-[#ea580c] duration-500 fa-solid fa-magnifying-glass"></i>
-            <i class="text-[30px] px-[10px] hover:text-[#ea580c] duration-500 fa-regular fa-user"></i>
-            <i class="text-[30px] px-[10px] hover:text-[#ea580c] duration-500 fa-solid fa-bag-shopping relative"><div class="text-[10px] p-[5px] text-white absolute border-[1px] rounded-[30px] bg-[#ea580c] right-[0px] top-[0px]"><p>0</p></div></i>
+    <section class="max-w-[1200px] sm:px-[20px] mx-auto sm:py-[30px] xs:p-[10px]">
+        <div class="ml:hidden flex justify-between items-center">
+            <i class=" xs:text-[20px] sm:text-[30px] hover:text-[#ea580c] fa-solid fa-bars"></i>
+            <figure>
+                <img class="xs:w-[100px] sm:w-[172px]" src="./img/logo.png" alt="">
+            </figure>
+            <div class="">
+                <i class="mx-[10px] xs:text-[20px] sm:text-[30px] hover:text-[#ea580c] duration-500 fa-solid fa-magnifying-glass"></i>
+                <i class="mx-[10px] xs:text-[20px] sm:text-[30px] hover:text-[#ea580c] duration-500 fa-solid fa-gear"></i>
+            </div>
+        </div>
+        <div class="xs:hidden ml:grid grid-cols-[40%_auto] justify-between items-center">
+            <figure>
+                <img src="./img/logo.png" alt="">
+            </figure>
+            <div class="">
+                <i class="mx-[10px] text-[30px] hover:text-[#ea580c] duration-500 fa-solid fa-magnifying-glass"></i>
+                <i class="mx-[10px] text-[30px] hover:text-[#ea580c] duration-500 fa-regular fa-user"></i>
+                <i class="mx-[10px] text-[30px] hover:text-[#ea580c] duration-500 relative fa-solid fa-bag-shopping"><p class="absolute top-[-3px] right-[-3px] p-[5px] text-[8px] border-[1px] text-white bg-[#ea580c] rounded-full">0</p></i>
+            </div>
         </div>
     </section>
     <!-- logo secton end -->
@@ -94,24 +106,26 @@
     </section>
     <!-- flexible chair section end -->
     <!-- Circular section start -->
-    <section class="w-full flex justify-center items-center  max-w-7xl mx-auto">
-        <div class="flex flex-wrap justify-center gap-10 my-16">
-            <div class="flex flex-col items-center justify-center h-[250px] w-[250px] p-[50px] border-[3px] border-[#6b7280] border-solid hover:border-dashed hover:border-[#ff7735] rounded-full">
-                <div><img class="h-[80px] w-[80px] object-cover" src="./img/bed-room.jfif" alt=""></div>
-                <p class="text-[20px] text-black mt-[10px]">Bed Room</p>
-            </div>
-            <div class="flex flex-col items-center justify-center h-[250px] w-[250px] p-[50px] border-[3px] border-[#6b7280] border-solid hover:border-dashed hover:border-[#ff7735] rounded-full">
-                <div><img class="h-[80px] w-[80px] object-cover" src="./img/living-room.png" alt=""></div>
-                <p class="text-[20px] text-black mt-[10px]">Living</p>
-            </div>
-            <div class="flex flex-col items-center justify-center h-[250px] w-[250px] p-[50px] border-[3px] border-[#6b7280] border-solid hover:border-dashed hover:border-[#ff7735] rounded-full">
-                <div><img class="h-[80px] w-[80px] object-cover" src="./img/dining-set.jfif" alt=""></div>
-                <p class="text-[20px] text-black mt-[10px]">Dining</p>
-            </div>
-            <div class="flex flex-col items-center justify-center h-[250px] w-[250px] p-[50px] border-[3px] border-[#6b7280] border-solid hover:border-dashed hover:border-[#ff7735] rounded-full">
-                <div><img class="h-[80px] w-[80px] object-cover" src="./img/lounge-sofa.jfif" alt=""></div>
-                <p class="text-[20px] text-black mt-[10px]">Lounge</p>
-            </div>
+    <section class="w-full max-w-7xl grid xs:grid-cols-1 sm:grid-cols-2 sl:grid-cols-3 md:grid-cols-4 ml:grid-cols-5 xs:gap-[20px] sl:gap-[10px] md:gap-[20px] py-[20px] px-[10px] mx-auto justify-center items-center">
+        <div class="flex flex-col items-center justify-center w-full aspect-square border-[3px] border-[#6b7280] border-solid hover:border-dashed hover:border-[#ff7735] rounded-full">
+            <div><img class="h-[80px] w-[80px] object-cover" src="./img/bed-room.jfif" alt=""></div>
+            <p class="lg:text-[20px] xs:text-[16px] text-black mt-[10px]">Bed Room</p>
+        </div>
+        <div class="hidden sm:flex flex-col items-center justify-center w-full aspect-square border-[3px] border-[#6b7280] border-solid hover:border-dashed hover:border-[#ff7735] rounded-full">
+            <div><img class="h-[80px] w-[80px] object-cover" src="./img/living-room.png" alt=""></div>
+            <p class="lg:text-[20px] xs:text-[16px] text-black mt-[10px]">Living</p>
+        </div>
+        <div class="hidden sl:flex flex-col items-center justify-center w-full aspect-square border-[3px] border-[#6b7280] border-solid hover:border-dashed hover:border-[#ff7735] rounded-full">
+            <div><img class="h-[80px] w-[80px] object-cover" src="./img/dining-set.jfif" alt=""></div>
+            <p class="lg:text-[20px] xs:text-[16px] text-black mt-[10px]">Dining</p>
+        </div>
+        <div class="hidden md:flex flex-col items-center justify-center w-full aspect-square border-[3px] border-[#6b7280] border-solid hover:border-dashed hover:border-[#ff7735] rounded-full">
+            <div><img class="h-[80px] w-[80px] object-cover" src="./img/lounge-sofa.jfif" alt=""></div>
+            <p class="lg:text-[20px] xs:text-[16px] text-black mt-[10px]">Lounge</p>
+        </div>
+        <div class="hidden ml:flex flex-col items-center justify-center w-full aspect-square border-[3px] border-[#6b7280] border-solid hover:border-dashed hover:border-[#ff7735] rounded-full">
+            <div><img class="h-[80px] w-[80px] object-cover" src="./img/office-chair.jfif" alt=""></div>
+            <p class="lg:text-[20px] xs:text-[16px] text-black mt-[10px]">Office Chair</p>
         </div>
     </section>
     <!-- Circular section end -->
@@ -135,89 +149,89 @@
             <div class="flex flex-col justifly-evenly items-center">
                 <div class="overflow-hidden relative">
                     <img class="hover:scale-125 duration-500" src="./img/Living-Room-Furniture.jfif" alt="">
-                    <h1 class="bg-[#ea580c] text-white absolute top-[10px] left-[10px] px-[10px]">-10%</h1>
-                    <i class="fa-regular fa-heart absolute top-[10px] right-[10px] p-[12px] text-[20px] rounded-full bg-[#fff] hover:bg-[#ea580c] hover:text-white duration-500"></i>
+                    <h1 class="bg-[#ea580c] text-white absolute top-[20px] left-[10px] px-[10px] rounded-[5px]">-10%</h1>
+                    <i class="fa-regular fa-heart absolute top-[10px] cursor-pointer right-[10px] p-[12px] text-[20px] rounded-full bg-[#fff] hover:bg-[#ea580c] hover:text-white duration-500"></i>
                 </div>
                 <div class="text-center pt-[20px] cursor-pointer">
-                    <p class="text-[25px] font-bold hover:text-[#ea580c] duration-500">Living Room Sofa</p>
-                    <p class="text-[20px] font-bold text-[#ea580c]"><span class="text-black line-through font-normal mr-[10px]">$150</span>$140</p>
+                    <p class="text-[16px] font-semibold hover:text-[#ea580c] duration-500">Sofa for Living Room</p>
+                    <p class="text-[20px]"><span class="text-black line-through font-normal mr-[10px]">$150</span>$140</p>
                 </div>
             </div>
             <div class="flex flex-col justifly-evenly items-center">
                 <div class="overflow-hidden relative">
                     <img class="hover:scale-125 duration-500" src="./img/gool-sofa.jfif" alt="">
-                    <h1 class="bg-[#ea580c] text-white absolute top-[10px] left-[10px] px-[10px]">-10%</h1>
-                    <i class="fa-regular fa-heart absolute top-[10px] right-[10px] p-[12px] text-[20px] rounded-full bg-[#fff] hover:bg-[#ea580c] hover:text-white duration-500"></i>
+                    <h1 class="bg-[#ea580c] text-white absolute top-[20px] left-[10px] px-[10px] rounded-[5px]">-10%</h1>
+                    <i class="fa-regular fa-heart absolute top-[10px] cursor-pointer right-[10px] p-[12px] text-[20px] rounded-full bg-[#fff] hover:bg-[#ea580c] hover:text-white duration-500"></i>
                 </div>
                 <div class="text-center pt-[20px] cursor-pointer">
-                    <p class="text-[25px] font-bold hover:text-[#ea580c] duration-500">Living Room Sofa</p>
-                    <p class="text-[20px] font-bold text-[#ea580c]"><span class="text-black line-through font-normal mr-[10px]">$150</span class="text-[#ea580c]">$140</p>
+                    <p class="text-[16px] font-semibold hover:text-[#ea580c] duration-500">Sofa for Living Room</p>
+                    <p class="text-[20px]"><span class="text-black line-through font-normal mr-[10px]">$150</span class="text-[#ea580c]">$140</p>
                 </div>
             </div>
             <div class="flex flex-col justifly-evenly items-center">
                 <div class="overflow-hidden relative">
                     <img class="hover:scale-125 duration-500" src="./img/white-black-sofa.jfif" alt="">
-                    <h1 class="bg-[#ea580c] text-white absolute top-[10px] left-[10px] px-[10px]">-10%</h1>
-                    <i class="fa-regular fa-heart absolute top-[10px] right-[10px] p-[12px] text-[20px] rounded-full bg-[#fff] hover:bg-[#ea580c] hover:text-white duration-500"></i>
+                    <h1 class="bg-[#ea580c] text-white absolute top-[20px] left-[10px] px-[10px] rounded-[5px]">-10%</h1>
+                    <i class="fa-regular fa-heart absolute top-[10px] cursor-pointer right-[10px] p-[12px] text-[20px] rounded-full bg-[#fff] hover:bg-[#ea580c] hover:text-white duration-500"></i>
                 </div>
                 <div class="text-center pt-[20px] cursor-pointer">
-                    <p class="text-[25px] font-bold hover:text-[#ea580c] duration-500">Living Room Sofa</p>
-                    <p class="text-[20px] font-bold text-[#ea580c]"><span class="text-black line-through font-normal mr-[10px]">$150</span class="text-[#ea580c]">$140</p>
+                    <p class="text-[16px] font-semibold hover:text-[#ea580c] duration-500">Sofa for Living Room</p>
+                    <p class="text-[20px]"><span class="text-black line-through font-normal mr-[10px]">$150</span class="text-[#ea580c]">$140</p>
                 </div>
             </div>
             <div class="flex flex-col justifly-evenly items-center">
                 <div class="overflow-hidden relative">
                     <img class="hover:scale-125 duration-500" src="./img/boota-myz.jfif" alt="">
-                    <h1 class="bg-[#ea580c] text-white absolute top-[10px] left-[10px] px-[10px]">-10%</h1>
-                    <i class="fa-regular fa-heart absolute top-[10px] right-[10px] p-[12px] text-[20px] rounded-full bg-[#fff] hover:bg-[#ea580c] hover:text-white duration-500"></i>
+                    <h1 class="bg-[#ea580c] text-white absolute top-[20px] left-[10px] px-[10px] rounded-[5px]">-10%</h1>
+                    <i class="fa-regular fa-heart absolute top-[10px] cursor-pointer right-[10px] p-[12px] text-[20px] rounded-full bg-[#fff] hover:bg-[#ea580c] hover:text-white duration-500"></i>
                 </div>
                 <div class="text-center pt-[20px] cursor-pointer">
-                    <p class="text-[25px] font-bold hover:text-[#ea580c] duration-500">Living Room Sofa</p>
-                    <p class="text-[20px] font-bold text-[#ea580c]"><span class="text-black line-through font-normal mr-[10px]">$150</span class="text-[#ea580c]">$140</p>
+                    <p class="text-[16px] font-semibold hover:text-[#ea580c] duration-500">Sofa for Living Room</p>
+                    <p class="text-[20px]"><span class="text-black line-through font-normal mr-[10px]">$150</span class="text-[#ea580c]">$140</p>
                 </div>
             </div>
             <div class="flex flex-col justifly-evenly items-center">
                 <div class="overflow-hidden relative">
                     <img class="hover:scale-125 duration-500" src="./img/boota-myz.jfif" alt="">
-                    <h1 class="bg-[#ea580c] text-white absolute top-[10px] left-[10px] px-[10px]">-10%</h1>
-                    <i class="fa-regular fa-heart absolute top-[10px] right-[10px] p-[12px] text-[20px] rounded-full bg-[#fff] hover:bg-[#ea580c] hover:text-white duration-500"></i>
+                    <h1 class="bg-[#ea580c] text-white absolute top-[20px] left-[10px] px-[10px] rounded-[5px]">-10%</h1>
+                    <i class="fa-regular fa-heart absolute top-[10px] cursor-pointer right-[10px] p-[12px] text-[20px] rounded-full bg-[#fff] hover:bg-[#ea580c] hover:text-white duration-500"></i>
                 </div>
                 <div class="text-center pt-[20px] cursor-pointer">
-                    <p class="text-[25px] font-bold hover:text-[#ea580c] duration-500">Living Room Sofa</p>
-                    <p class="text-[20px] font-bold text-[#ea580c]"><span class="text-black line-through font-normal mr-[10px]">$150</span class="text-[#ea580c]">$140</p>
+                    <p class="text-[16px] font-semibold hover:text-[#ea580c] duration-500">Sofa for Living Room</p>
+                    <p class="text-[20px]"><span class="text-black line-through font-normal mr-[10px]">$150</span class="text-[#ea580c]">$140</p>
                 </div>
             </div>
             <div class="flex flex-col justifly-evenly items-center">
                 <div class="overflow-hidden relative">
                     <img class="hover:scale-125 duration-500" src="./img/white-black-sofa.jfif" alt="">
-                    <h1 class="bg-[#ea580c] text-white absolute top-[10px] left-[10px] px-[10px]">-10%</h1>
-                    <i class="fa-regular fa-heart absolute top-[10px] right-[10px] p-[12px] text-[20px] rounded-full bg-[#fff] hover:bg-[#ea580c] hover:text-white duration-500"></i>
+                    <h1 class="bg-[#ea580c] text-white absolute top-[20px] left-[10px] px-[10px] rounded-[5px]">-10%</h1>
+                    <i class="fa-regular fa-heart absolute top-[10px] cursor-pointer right-[10px] p-[12px] text-[20px] rounded-full bg-[#fff] hover:bg-[#ea580c] hover:text-white duration-500"></i>
                 </div>
                 <div class="text-center pt-[20px] cursor-pointer">
-                    <p class="text-[25px] font-bold hover:text-[#ea580c] duration-500">Living Room Sofa</p>
-                    <p class="text-[20px] font-bold text-[#ea580c]"><span class="text-black line-through font-normal mr-[10px]">$150</span class="text-[#ea580c]">$140</p>
+                    <p class="text-[16px] font-semibold hover:text-[#ea580c] duration-500">Sofa for Living Room</p>
+                    <p class="text-[20px]"><span class="text-black line-through font-normal mr-[10px]">$150</span class="text-[#ea580c]">$140</p>
                 </div>
             </div>
             <div class="flex flex-col justifly-evenly items-center">
                 <div class="overflow-hidden relative">
                     <img class="hover:scale-125 duration-500" src="./img/gool-sofa.jfif" alt="">
-                    <h1 class="bg-[#ea580c] text-white absolute top-[10px] left-[10px] px-[10px]">-10%</h1>
-                    <i class="fa-regular fa-heart absolute top-[10px] right-[10px] p-[12px] text-[20px] rounded-full bg-[#fff] hover:bg-[#ea580c] hover:text-white duration-500"></i>
+                    <h1 class="bg-[#ea580c] text-white absolute top-[20px] left-[10px] px-[10px] rounded-[5px]">-10%</h1>
+                    <i class="fa-regular fa-heart absolute top-[10px] cursor-pointer right-[10px] p-[12px] text-[20px] rounded-full bg-[#fff] hover:bg-[#ea580c] hover:text-white duration-500"></i>
                 </div>
                 <div class="text-center pt-[20px] cursor-pointer">
-                    <p class="text-[25px] font-bold hover:text-[#ea580c] duration-500">Living Room Sofa</p>
-                    <p class="text-[20px] font-bold text-[#ea580c]"><span class="text-black line-through font-normal mr-[10px]">$150</span class="text-[#ea580c]">$140</p>
+                    <p class="text-[16px] font-semibold hover:text-[#ea580c] duration-500">Sofa for Living Room</p>
+                    <p class="text-[20px]"><span class="text-black line-through font-normal mr-[10px]">$150</span class="text-[#ea580c]">$140</p>
                 </div>
             </div>
             <div class="flex flex-col justifly-evenly items-center">
                 <div class="overflow-hidden relative">
                     <img class="hover:scale-125 duration-500" src="./img/Living-Room-Furniture.jfif" alt="">
-                    <h1 class="bg-[#ea580c] text-white absolute top-[10px] left-[10px] px-[10px]">-10%</h1>
-                    <i class="fa-regular fa-heart absolute top-[10px] right-[10px] p-[12px] text-[20px] rounded-full bg-[#fff] hover:bg-[#ea580c] hover:text-white duration-500"></i>
+                    <h1 class="bg-[#ea580c] text-white absolute top-[20px] left-[10px] px-[10px] rounded-[5px]">-10%</h1>
+                    <i class="fa-regular fa-heart absolute top-[10px] cursor-pointer right-[10px] p-[12px] text-[20px] rounded-full bg-[#fff] hover:bg-[#ea580c] hover:text-white duration-500"></i>
                 </div>
                 <div class="text-center pt-[20px] cursor-pointer">
-                    <p class="text-[25px] font-bold hover:text-[#ea580c] duration-500">Living Room Sofa</p>
-                    <p class="text-[20px] font-bold text-[#ea580c]"><span class="text-black line-through font-normal mr-[10px]">$150</span class="text-[#ea580c]">$140</p>
+                    <p class="text-[16px] font-semibold hover:text-[#ea580c] duration-500">Sofa for Living Room</p>
+                    <p class="text-[20px]"><span class="text-black line-through font-normal mr-[10px]">$150</span class="text-[#ea580c]">$140</p>
                 </div>
             </div>
         </div>
